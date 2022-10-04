@@ -11,7 +11,9 @@
 
 header{
     background-image: url(../img/jumbo.png);
-    max-height: 500px;
+    height: 625px;
+    background-size: cover;
+    background-position: center;
 }
 .container{
     display: flex;
@@ -60,8 +62,17 @@ header{
     padding-right: 35px;
     font-size: 13px;
 }
+
+h1{
+    color: white;
+    font-size: 40px;
+}
 .p-header{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     width: 1200px;
     min-height: 50px;
     height: 300px;
@@ -70,34 +81,76 @@ header{
     justify-content: center;
     padding-top: 40px;
 }
-.h-p{
-    height: 200px;
-    width: 60%;
-    background-color: black;
+#p-head{
+    width: 700px;
+    padding-top: 25px;
+    line-height: 26px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
 }
+
+.button-header{
+    display: flex;
+    padding-top: 20px;
+
+}
+#scarica{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 10px 15px;
+    margin-right: 20px;
+}
+#apri{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 10px 15px;
+}
+
 
 /* main */
 
 .section-odd{
     background-color: white;
-    min-height: 200px;
+    height: 500px;
 }
 .section-container{
     display: flex;
     justify-content: space-around;
     width: 1200px;
     min-height: 300px;
-    border: solid 1px;
+    padding-top: 40px;
+    /* border: solid 1px; */
     /* background-color: coral; */
     margin: 0 auto;
 }
 .img-1{
-    width: 300px;
+    width: 600px;
 }
+.testo-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    width: 350px;
+    font-size: 40px;
+    line-height: 45px;
+    padding-top: 30px;
+}
+
 p{
-    height: 300px;
-    width: 300px;
-    background-color: aquamarine;
+    padding-top: 30px;
+    width: 350px;
+    line-height: 25px;
+    font-size: 15px;  
 }
 .section-even{
     background-color: lightgray;
